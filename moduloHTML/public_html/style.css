@@ -7,6 +7,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : Érico
 */
 
+body{
+    
+    background: #ccc;
+    
+}
+
 #titulo , #tituloPostagem , .subtitulo{
     
  color:blue;   
@@ -17,4 +23,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     
    font-size: 16px; 
    font-style: italic; 
+}
+
+
+.postagem{
+    
+    background: #FFF;
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 0 auto ;
 }
