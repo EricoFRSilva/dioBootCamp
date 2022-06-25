@@ -10,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 body{
     
     background: #f7f7f7;
-    
+    font-family: verdana;
 }
 .image{
     
@@ -21,6 +21,12 @@ body{
     
  color:#505050;   
     
+}
+
+#titulo{
+    
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 #tituloPostagem{
@@ -45,5 +51,12 @@ body{
     
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
          
+}
+
+a{
+    
+    text-decoration:line-through;
+    color:#505050;
 }
