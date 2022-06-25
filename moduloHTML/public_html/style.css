@@ -11,6 +11,9 @@ body{
     
     background: #f7f7f7;
     font-family: verdana;
+    margin:auto;
+    padding: 20px;
+    max-width: 900px;
 }
 .image{
     
@@ -42,9 +45,10 @@ body{
     
     background: #FFF;
     padding: 15px;
-    border: 2px solid #505050;
+    border: 2px solid red;
     margin-bottom: 15px;
-    border-radius:10px; 
+    border-radius:10px;
+    text-align: justify;
 }
 
 .paragrafo1{
@@ -70,4 +74,10 @@ a{
 .listaConteudo li a{
     
    text-decoration: none; 
+}
+
+.morumbiImage{
+    
+ width: 100%;
+ border-radius:10px;  
 }
