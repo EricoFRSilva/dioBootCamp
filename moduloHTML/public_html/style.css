@@ -18,11 +18,11 @@ body{
 .image{
     
     border-radius: 50%;
-    border:1px solid #050505;
+   
 }
 #titulo , #tituloPostagem , .subtitulo{
     
- color:#505050;   
+ color:#000;   
     
 }
 
@@ -30,6 +30,7 @@ body{
     
     font-size: 40px;
     text-transform: uppercase;
+    
 }
 
 #tituloPostagem{
@@ -37,7 +38,8 @@ body{
    font-size: 16px; 
    font-style: italic; 
    margin: 0;
-   margin-bottom:15px;  
+   margin-bottom:15px;
+   
 }
 
 
@@ -73,7 +75,8 @@ a{
 
 .listaConteudo li a{
     
-   text-decoration: none; 
+   text-decoration: none;
+   color:#000;
 }
 
 .morumbiImage{
@@ -81,3 +84,32 @@ a{
  width: 100%;
  border-radius:10px;  
 }
+
+.cabeca{
+    
+   background:#fff; 
+   color:white; 
+   border-radius:10px;
+   padding-left:  10px;
+   padding-top:5px;
+   border:2px solid red;
+   text-align: center;
+}
+
+footer{
+    
+    background:#fff;
+    border-radius:10px;
+    border:2px solid red;
+    background-image:url("image/tacas.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+  
+}
+
+.subtitulo{
+    
+    color:#505050;
+    padding-left:15px;
+}
+
