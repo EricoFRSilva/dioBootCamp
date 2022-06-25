@@ -9,13 +9,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 body{
     
-    background: #ccc;
+    background: #f7f7f7;
     
 }
-
+.image{
+    
+    border-radius: 50%;
+    border:1px solid #050505;
+}
 #titulo , #tituloPostagem , .subtitulo{
     
- color:blue;   
+ color:#505050;   
     
 }
 
@@ -23,13 +27,23 @@ body{
     
    font-size: 16px; 
    font-style: italic; 
+   margin: 0;
+   margin-bottom:15px;  
 }
 
 
 .postagem{
     
     background: #FFF;
-    padding: 10px;
-    border: 2px solid #000;
-    margin: 0 auto ;
+    padding: 15px;
+    border: 2px solid #505050;
+    margin-bottom: 15px;
+    border-radius:10px; 
+}
+
+.paragrafo1{
+    
+    margin: 0;
+    margin-bottom: 15px;
+         
 }
