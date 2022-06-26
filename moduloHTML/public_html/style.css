@@ -18,7 +18,7 @@ body{
     background-image: url("image/sp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
   }
 .image{
     
@@ -113,7 +113,7 @@ footer{
 }
 
 .subtitulo{
-    padding-bottom: 5px;
+    
     color:#fff;
     padding-left:15px;
    -webkit-text-stroke-width: 0.5px;
